@@ -1,1 +1,11 @@
+package com.blog.blogmodelo.service;
 
+import com.blog.blogmodelo.model.Post;
+import antlr.collections.List;
+
+public interface blogmodeloService {
+
+	List findAll();
+	Post findById(Long id);
+	Post save(Post post);
+}
