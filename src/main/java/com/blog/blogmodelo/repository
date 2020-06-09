@@ -1,1 +1,8 @@
+package com.blog.blogmodelo.repository;
 
+import org.springframework.data.repository.CrudRepository;
+import com.blog.blogmodelo.model.Post;
+
+public interface BlogModeloRepository extends CrudRepository<Post, Long> {
+
+}
